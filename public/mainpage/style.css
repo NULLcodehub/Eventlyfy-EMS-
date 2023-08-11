@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0px;
+}
+nav{
+    background: #000;
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+nav h1{
+    margin-left: 2%;
+    font-family: 'Pacifico', cursive;
+}
+.profile{
+    display: flex;
+    margin-right: 4%;
+    justify-content: space-between;
+    align-items: center;
+   
+    width: 250px;
+    padding:0% 2% ;
+}
+.nav-img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 100px;
+    overflow: hidden;
+
+}
+.profile h2{
+    margin-left: 4px;
+   
+}
+nav img{
+  width: 40px;
+    
+}
+a{
+    text-decoration: none;
+    background: #efefef;
+    padding: 2%;
+    color: #000;
+}
+a:hover{
+    border:1px white;
+    border-spacing:1px ;
+}
+.container{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    
+}
+.user-filter{
+    width: 350px;
+    border: 1px solid black;
+    margin: 1%;
+    align-items: center;
+    padding: 2%;
+}
+.event-planer{
+    width: 500px;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 2%;
+    
+}
+.vendor{
+    width: 200px;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 2%;
+    
+}
+select{
+    padding: 1%;
+    
+}
