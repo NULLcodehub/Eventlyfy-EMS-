@@ -47,3 +47,14 @@ section{
     color: white;
     background: #000;
 }
+.file-input{
+    padding: 1%;
+    margin: 1%;
+    background: black; 
+    color: white;
+ }
+sub{
+    color: #7c7c7ce0;
+    margin-left: 5px;
+}
+ 

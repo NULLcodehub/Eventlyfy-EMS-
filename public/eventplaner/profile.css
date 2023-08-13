@@ -52,3 +52,40 @@ a:hover{
     border:1px white;
     border-spacing:1px ;
 }
+.cover-main{
+    margin:2% ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.cover{
+    width: 600px;
+    height: 250px;
+    border: 3px solid black;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: rgba(78, 78, 85, 0.2) 0px 7px 29px 0px;
+}
+.cover img{
+    width: fit-content;
+    
+}
+input{
+    color: white;
+    background: black;
+}
+
+.file-input{
+   padding: 1%;
+   margin: 1%;
+   
+}
+button{
+    color: white;
+    background: black;
+    padding: 1%;
+    border: none;
+    border-radius: 1px;
+}
+
